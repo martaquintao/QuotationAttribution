@@ -5,7 +5,7 @@ PUBLICO 1994 QUOTATION ATTRIBUTION CORPUS (QUAC), v1.0
 1) General Information
 
 This file consists on a dataset for Quotation Attribution on Portuguese news, created within the scope of my Master thesis [1]. 
-The original documents consist in 100 000 unmarked news from the Portuguese newspaper ìPUBLICOî (1994). 
+The original documents consist in 100 000 unmarked news from the Portuguese newspaper ‚ÄúPUBLICO‚Äù (1994). 
 
 From that, a fraction of the original corpus was manually annotated yielding a total of 212 annotated news and 971 annotated quotes. The steps taken to obtain the final corpus were the following:
 --	Tokenization;
@@ -18,7 +18,7 @@ From that, a fraction of the original corpus was manually annotated yielding a t
 For more information, please refer to Chapter 4 of [1]. 
 
 If you use this corpus in your research, please cite the following work:
-[1] Quint„o, Marta E.(2014). Quotation Attribution for Portuguese News Corpora. M.Sc. Thesis. TÈcnico Lisboa/UTL: Portugal.
+[1] Quint√£o, Marta E.(2014). Quotation Attribution for Portuguese News Corpora. M.Sc. Thesis. T√©cnico Lisboa/UTL: Portugal.
 
 For any questions or comments, please send email to <marta.pereira.quintao@tecnico.ulisboa.pt>.
 
@@ -31,7 +31,7 @@ The file contains the set of annotated news articles, one for each <doc> tag, wi
 -- If the news article is a summary then an attribute "type" is added and set to "RES".
 -- If the news article is an interview then an attribute "type" is added and set to "ENT".
 
-Each <doc> tag includes the complete news article in <text>, followed by the tokenized text in <tokenized_text>. The tags <paragraph>, <sentence> and <word> mark the structure of the text. To the <word> tag, the attributes in "self", ìPOStagî, ìparentî and ìdependencyî were assigned with the corresponding information of its dependency tree and part-of-speech tagging.
+Each <doc> tag includes the complete news article in <text>, followed by the tokenized text in <tokenized_text>. The tags <paragraph>, <sentence> and <word> mark the structure of the text. To the <word> tag, the attributes in "self", ‚ÄúPOStag‚Äù, ‚Äúparent‚Äù and ‚Äúdependency‚Äù were assigned with the corresponding information of its dependency tree and part-of-speech tagging.
 
 The authors in the text are marked with a <author> tag and the attributes "authorID" and "alternativeID", storing information on the authors unique ID the unique ID of its older coreference respectively. If no coreferences exist in the news article, the the value for the attribute "alternativeID" is set to N/A.
 -- If the author was manually added, an attribute "added" is added and set to "True".
@@ -41,19 +41,19 @@ The quotes are marked with a <quote> tag and the attributes "authorID" and "quot
 -- If the quote was manually added, an attribute "added" is added and set to "True".
 -- If the quote was manually modified from its automatic detection, an attribute "altered" is added and set to "True".
 
-For more information, please refer to Chapter 4 of the document of the thesis ìQuotation Attribution for Portuguese News Corporaî. 
+For more information, please refer to Chapter 4 of the document of the thesis ‚ÄúQuotation Attribution for Portuguese News Corpora‚Äù. 
 
 
 3) License
 
-PUBLICO 1994 Quotation Attribution Corpus (c) by Marta Quint„o
+PUBLICO 1994 Quotation Attribution Corpus (c) by Marta Quint√£o
 
-PUBLICO 1994 Quotation Attribution Corpus is owned by Marta Quint„o and licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+PUBLICO 1994 Quotation Attribution Corpus is owned by Marta Quint√£o and licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>. 
 
 
 4) Acknowledgements
 
-The original (unmarked news) dataset CHAVE was compiled within the CLEF initiative by Linguateca <http://www.linguateca.pt> and is available at <http://www.linguateca.pt/CHAVE/>. It contains news from de newspapers "P˙blico" <http://www.publico.pt> and  "Folha de S„o Paulo" <http://www.folha.com.br> for the years 1994 and 1995. 
+The original (unmarked news) dataset CHAVE was compiled within the CLEF initiative by Linguateca <http://www.linguateca.pt> and is available at <http://www.linguateca.pt/CHAVE/>. It contains news from de newspapers "P√∫blico" <http://www.publico.pt> and  "Folha de S√£o Paulo" <http://www.folha.com.br> for the years 1994 and 1995. 
 
-I would like to thank Priberam for providing the news articles and supporting the M.Sc. thesis which lead to the creation of this corpus and, in particular, to AndrÈ F. T. Martins, Miguel B. Almeida, Prof. M·rio Figueiredo (supervisors of the M.Sc. thesis) and Mariana S. C. Almeida for helping and providing the necessary tools.
+I would like to thank Priberam for providing the news articles and supporting the M.Sc. thesis which lead to the creation of this corpus and, in particular, to Andr√© F. T. Martins, Miguel B. Almeida, Prof. M√°rio Figueiredo (supervisors of the M.Sc. thesis) and Mariana S. C. Almeida for helping and providing the necessary tools. I would also like to give a special thanks to Jos√© Mendo√ßa and Andr√© Carreira for helping with the manual attribution of quotes to speakers.
